@@ -88,7 +88,7 @@ sumbitDisabled = false
 deleteModal = false
 deleteIndex = -1;
 
-deleteMovie(index){
+deleteMovie(index:number){
   this.$store.commit('deleteMovie', this.deleteIndex)
   this.deleteIndex = -1
   this.deleteModal = false
